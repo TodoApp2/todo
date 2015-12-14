@@ -1,0 +1,72 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 60px;
+}
+
+#signUpForm{
+	margin-top: 30px;
+}
+#loginForm{
+	margin-top: 30px;
+}
+
+#links{
+	margin-top: 30px;
+}
+.link{
+	height: 200px;
+	width: 250px;
+	border-radius: 50px;
+	text-align: center;
+	background-color: #19B5FE;
+	font-size: 50px;
+	padding-top: 50px;
+	margin-top: 10px;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-o-transition:0.5s;
+	transition:0.5s;
+}
+.link:hover
+{
+	background-color: black;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+	
+}
+a:hover{
+	text-decoration: none;
+	color: #CF000F;
+}
+#addTaskForm
+{
+	margin-top: 30px;
+}
+#allTask
+{
+	margin-top: 30px;
+}
+
+footer{
+	position: absolute;;
+	height: 60px;
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	bottom: 0;
+	line-height: 3.5em;
+}
+#about{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 30px;
+	font-family: Impact, Charcoal, sans-serif;
+	color: rgb(112,0,0);
+}
